@@ -1,0 +1,23 @@
+.search-block {
+   position: absolute;
+   top: 311px;
+    
+  }
+  .search-box {
+      width : 584px;
+
+    }
+
+
+.logo {
+    padding-top:150px;
+}
+body {
+    color: red;
+    border-color: red;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.411);
+}
+div {
+  display: block;
+}
