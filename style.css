@@ -50,6 +50,15 @@ button:hover{
       border-color: white;
       border-style: solid;  
 }
+
+
+.search-box:focus{
+    
+   
+        outline: none;
+    
+      
+}
  .search-buttons {
     display: flex;
     justify-content: center;
