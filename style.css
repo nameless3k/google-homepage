@@ -1,9 +1,18 @@
+.search-logo {
+    height: 24px;
+    width: 24px;
+    background-image: url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
+    background-position: -250px 36px;
+    opacity: 0.3;
+    margin-right: 8px;
+}
+
 button {
     overflow: visible;
-    padding: 10px;
+    font-size: 14px;
+    padding: 10px 18px 10px 18px;
     margin: 5px;    
     background-color: #f3f3f3;
-    font-size: small;
     border-style: solid;
     border-color: white;
     color: grey;
@@ -12,8 +21,9 @@ button {
 }
 
 button:hover{
-    border-color: grey;
+    border-color: rgba(128, 128, 128, 0.25);
     color: black;
+    box-shadow:0px 1px 1px rgba(128, 128, 128, 0.25);
     
 }
 
@@ -23,6 +33,10 @@ button:hover{
     margin-top: 25px;
 }
 
+.search-forms{
+    margin-right: 7px;
+}
+
 .search-round-border {
    
     display: flex;
@@ -30,8 +44,8 @@ button:hover{
     width: 584px;
     padding: 10px;
     border-style: solid;
-    border-radius: 25px;
-    border-width: 1px;
+    border-radius: 30px;
+    border-width: 0.9px;
     border-color: rgb(189, 189, 189);
 
 
@@ -43,9 +57,7 @@ button:hover{
 
 
   .search-box {
-      width : 584px;
-      display: flex;
-      justify-content: center;
+      width : 546px;      
       background-color: white;
       border-color: white;
       border-style: solid;  
@@ -67,17 +79,16 @@ button:hover{
  }
 
 .logo {
-    padding-top:150px;
-    display: flex;
+    padding-top:200px;
     justify-content: center;
 }
 body {
-    padding: 15px;
+    padding: 5px;
     background: rgba(255, 255, 255, 0.404);
     font-family: arial, sans-serif;
 
 
 }
 div {
-  display: block;
+  display: flex;
 }
