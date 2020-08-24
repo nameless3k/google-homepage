@@ -1,16 +1,30 @@
+
+
+
 .search-block {
-   position: absolute;
-   top: 311px;
-    
-  }
+   
+    display: flex;
+    justify-content: center;
+
+
+}
   .search-box {
       width : 584px;
+      display: flex;
+      justify-content: center;
+      border-color: white;
+      box-shadow: none;
 
-    }
-
+}
+ .search-buttons {
+    display: flex;
+    justify-content: center;
+ }
 
 .logo {
     padding-top:150px;
+    display: flex;
+    justify-content: center;
 }
 body {
     color: red;
