@@ -1,3 +1,91 @@
+.location-text {
+    padding-left:16px;
+    color:grey;
+}
+
+
+.location-footer {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.137);
+    padding:10px 0px 10px 0px;
+    left:0;
+    bottom:39px;
+    align-content: flex-end;
+    
+}
+
+.bar-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px 10px 0px;
+    background-color: rgba(128, 128, 128, 0.13);
+    border-top: solid;
+    border-color: rgba(128, 128, 128, 0.25);
+    border-width: 1px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    
+}
+    .bot-nav {
+        
+        margin: 16px;    
+        
+        
+    }
+
+
+
+.apps-logo {
+    width: 32px;
+    height: 32px;
+    background-image: url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
+    background-position: -132px 98px;
+    margin: 9px;
+    opacity: 0.5;
+    
+}
+.apps-logo:hover {
+opacity: 0.9;
+}
+
+#profile-initial {
+    border-radius: 50%;
+    margin: 9px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.top-nav {
+    
+    margin: 16px;    
+    font-size:small;
+    
+}
+
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: grey;
+}
+
+
+
+
+
+
 .search-logo {
     height: 24px;
     width: 24px;
@@ -15,7 +103,7 @@ button {
     background-color: #f3f3f3;
     border-style: solid;
     border-color: white;
-    color: grey;
+    color: rgb(83, 83, 83);
     border-width: 1px;
     border-radius: 5px;
 }
@@ -45,14 +133,14 @@ button:hover{
     padding: 10px;
     border-style: solid;
     border-radius: 30px;
-    border-width: 0.9px;
-    border-color: rgb(189, 189, 189);
+    border-width: 1px;
+    border-color:rgba(128, 128, 128, 0.247);
 
 
 }
 
 .search-round-border:hover {
-    box-shadow:0px 0px 5px grey;
+    box-shadow:0px 0px 3px rgba(128, 128, 128, 0.315);
 }
 
 
